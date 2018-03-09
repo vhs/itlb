@@ -11,14 +11,9 @@ NAME=vhs-itlb
 
 docker build -t $TEMPLATE $PKGDIR
 
-if [ ! -f config.json ] ; then
-	echo "Missing config.json"
-	exit
-fi
-
 echo "Killing old instance (if any)"
 docker kill $NAME
 echo "Removing old instance (if any)"
 docker rm $NAME
 echo "Starting"
-docker run -p 3008:3000 -d --restart=always --name $NAME -t $TEMPLATE bin/www
+docker run -d --restart=always --name $NAME -t $TEMPLATE bin/www
