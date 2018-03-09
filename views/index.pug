@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p #{message}
+  div(class="wrapper")
+    h1= title
+    p #{message}
+    div(class="push")
+
+  footer(class="footer") More information on 
+    a(href='https://github.com/vhs/itlb') GitHub
