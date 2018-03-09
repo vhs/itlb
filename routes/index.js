@@ -2,7 +2,14 @@ var express = require('express');
 var router = express.Router();
 var rp = require('request-promise');
 
-/* GET home page. */
+/*
+ * This is now using flat text.
+ * Whoever takes this on, your goal will be to implement this using:
+ *
+ * https://api.vanhack.ca/s/vhs/data/laser.json
+ * 
+ */
+
 router.get('/', function(req, res, next) {
   rp('https://api.vanhack.ca/s/vhs/data/laser.txt')
   .then(function (htmlString) {
