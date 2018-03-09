@@ -6,4 +6,4 @@ COPY package.json /app/
 RUN cd /app && npm install --production
 COPY . /app
 
-EXPOSE [3000]
+EXPOSE 3000
