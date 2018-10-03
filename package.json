@@ -8,16 +8,16 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
-    "debug": "^3.1.0",
+    "debug": "^4.0.1",
     "express": "^4.16.3",
-    "morgan": "^1.9.0",
+    "morgan": "^1.9.1",
     "pug": "^2.0.3",
-    "request": "^2.87.0",
+    "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "serve-favicon": "^2.5.0",
     "vague-time": "^2.4.2"
   },
   "devDependencies": {
-    "nodemon": "^1.17.5"
+    "nodemon": "^1.18.4"
   }
 }
