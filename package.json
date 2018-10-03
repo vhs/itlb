@@ -14,7 +14,8 @@
     "pug": "^2.0.3",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "vague-time": "^2.4.2"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
