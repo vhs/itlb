@@ -7,18 +7,17 @@
     "dev": "DEBUG='*' node_modules/.bin/nodemon -w . -w routes bin/www"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "~1.4.3",
-    "debug": "^4.0.1",
-    "express": "^4.16.3",
-    "morgan": "^1.9.1",
-    "pug": "^2.0.3",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2",
+    "axios": "^0.23.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.10.0",
     "serve-favicon": "^2.5.0",
     "vague-time": "^2.4.2"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^2.0.14"
   }
 }
