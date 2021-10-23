@@ -1,6 +1,6 @@
 {
   "name": "vhs-itlb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
@@ -12,8 +12,8 @@
     "cookie-parser": "^1.4.5",
     "debug": "^4.3.2",
     "express": "^4.17.1",
-    "jade": "^1.11.0",
     "morgan": "^1.10.0",
+    "pug": "^3.0.2",
     "serve-favicon": "^2.5.0",
     "vague-time": "^2.4.2"
   },
