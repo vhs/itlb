@@ -7,12 +7,12 @@
     "dev": "DEBUG='*' node_modules/.bin/nodemon -w . -w routes bin/www"
   },
   "dependencies": {
-    "axios": "1.16.0",
-    "body-parser": "1.20.5",
+    "axios": "1.18.0",
+    "body-parser": "1.20.6",
     "cookie-parser": "1.4.7",
     "debug": "4.3.5",
     "express": "4.22.2",
-    "morgan": "1.10.1",
+    "morgan": "1.11.0",
     "pug": "3.0.3",
     "serve-favicon": "2.5.0",
     "vague-time": "2.4.2"
